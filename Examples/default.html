@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <section style="margin-left:120px;margin-top:45px;">
+    <hgroup>
+	  <h1>Markup</h1>
+	  <h2>Demo</h2>
+    </hgroup>
+	<p>Favorites:</p>
+	<form onsubmit="javascript:notify.play();return false;">
+	  <input id="favUrl" type="url" required="required" placeholder="http://www.palermo4.com"/>
+	  <input type="submit" value="Save..."/>
+	</form>
+	
+	<audio src="audio/notify.wav" id="notify"></audio>
+	
+	<audio controls="controls">
+	  <source src="audio/notify.wav" type="audio/wav">
+	</audio>
+	
+	<video src="video/30seconds.mp4" controls="controls"</video>
+  </section>
+</body>
+</html>
